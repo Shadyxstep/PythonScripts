@@ -37,9 +37,10 @@ def rename_videos(video_folder, text_file):
         if video_index < len(video_files):
             print(f"⚠️ {len(video_files) - video_index} unused video files remaining.")
 
-video_folder_path = "/Volumes/T7 Shield/Speed Solutions/Day 3"
-text_file_path = "/Users/leomorgan/Documents/Day3Exercises.txt"
-video_folder_new = "/Volumes/T7 Shield/Speed Solutions/NAMED"
+# Enter the relevant absolute file paths & text file for naming below
+video_folder_path = ""
+text_file_path = ""
+video_folder_new = ""
 
 rename_videos(video_folder_path, text_file_path)
 
